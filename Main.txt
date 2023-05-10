@@ -1,0 +1,24 @@
+class Exception2 extends Exception {
+    public Exception2(String message) {
+        super(message);
+    }
+}
+
+public class Main1 {
+    public static void main(String[] args) {
+        int dividend = 10;
+        int divisor = 0;
+
+        try { if (divisor ==0){
+             throw new
+                        Exception2(Sproba dzielenia na zero ! +divisor);
+}
+            } catch (Exception2 e) {
+            int result = dividend  divisor;
+            System.out.println( result );
+
+
+
+            }
+        }
+    }
